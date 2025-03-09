@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Github, Linkedin, Mail, Send } from 'lucide-react';
+import { Github, Linkedin, Send } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Contact() {
@@ -46,7 +46,7 @@ export default function Contact() {
             </p>
             <div className="flex flex-col gap-4">
               <Link 
-                href="https://github.com/yourusername"
+                href="https://github.com/cakpa"
                 className="flex items-center gap-2 text-gray-400 hover:text-[hsl(var(--blue))] transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
