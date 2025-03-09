@@ -5,8 +5,7 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
-    assetPrefix: '/cee-portfolio/',
-    trailingSlash: true,
+    distDir: 'out',
 }
 
 export default nextConfig;
