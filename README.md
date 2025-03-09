@@ -1,4 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
+
+My personal portfolio website built with Next.js and TailwindCSS.
+
+## Technologies Used
+
+- Next.js 14
+- TailwindCSS
+- TypeScript
+- React
+
+## Features
+
+- Responsive Design
+- Dark Theme
+- Contact Form
+- Project Showcase
+- Skills Section
+- About Section
+
+## Visit the Site
+
+[View Portfolio](https://cakpa.github.io/cee-portfolio/)
 
 ## Getting Started
 

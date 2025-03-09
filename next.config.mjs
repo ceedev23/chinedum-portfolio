@@ -1,13 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: process.env.NODE_ENV === 'production' ? '/cee-portfolio' : '',
-    output: 'export', // This tells Next.js to generate a static site
+    output: 'export',
+    basePath: '/cee-portfolio',
     images: {
-        unoptimized: true, // Required for static exports
-        dangerouslyAllowSVG: true,
-        contentDispositionType: 'attachment',
-        contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+        unoptimized: true,
     },
+    assetPrefix: '/cee-portfolio/',
+    trailingSlash: true,
 }
 
 export default nextConfig;
