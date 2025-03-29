@@ -6,10 +6,10 @@ const projects = [
   {
     title: 'Personal Blog',
     description: 'A blog built with Next.js and MDX',
-    image: `${process.env.NODE_ENV === 'production' ? '/chinedum-portfolio/' : '/'}Screenshot-MyBlog.png`,
+    image: `${process.env.NODE_ENV === 'production' ? '/chinedum-portfolio' : ''}/Screenshot-MyBlog.png`,
     tech: ['Next.js', 'MDX', 'Tailwind CSS'],
-    github: 'https://github.com/yourusername/blog',
-    live: 'https://your-blog-url.com'
+    github: 'https://github.com/ceedev23/My-Blog',
+    live: 'https://ceedev23.github.io/My-Blog'
   },
   {
     title: 'Weather App',
