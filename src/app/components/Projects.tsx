@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'Personal Blog',
     description: 'A blog built with Next.js and MDX',
-    image: '/blog-preview.jpg',
+    image: '/Screenshot-MyBlog.png',
     tech: ['Next.js', 'MDX', 'Tailwind CSS'],
     github: 'https://github.com/yourusername/blog',
     live: 'https://your-blog-url.com'
