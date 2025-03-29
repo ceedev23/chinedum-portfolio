@@ -23,7 +23,7 @@ export default function Hero() {
             />
           </div>
           <div className="flex-1 text-center md:text-left max-w-2xl mx-auto md:mx-0">
-            <h1 className={`text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-300 via-white/90 to-pink-300 mb-4 ${pacifico.className}`}>
+            <h1 className={`text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-300 via-white/90 to-pink-300 mb-4 pt-4 ${pacifico.className}`}>
               Hello, I&apos;m
             </h1>
             <h1 className="text-4xl md:text-5xl font-bold text-[hsl(var(--blue))] mb-4">
