@@ -64,6 +64,8 @@ export default function Projects() {
                   <Link
                     href={project.github}
                     className="flex items-center gap-2 text-gray-600 hover:text-gray-900"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Github className="h-5 w-5" />
                     <span>Code</span>
@@ -71,6 +73,8 @@ export default function Projects() {
                   <Link
                     href={project.live}
                     className="flex items-center gap-2 text-gray-600 hover:text-gray-900"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <ExternalLink className="h-5 w-5" />
                     <span>Live Demo</span>
