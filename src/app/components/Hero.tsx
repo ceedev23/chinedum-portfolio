@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16 md:pr-8">
           <div className="w-64 h-80 relative rounded-[8rem] overflow-hidden border-4 border-gray-700 shadow-lg shrink-0">
             <Image
-              src="/profile-pix.jpg"
+              src={`${process.env.NODE_ENV === 'production' ? '/chinedum-portfolio' : ''}/profile-pix.jpg`}
               alt="Chinedum Akpala"
               fill
               className="object-cover"
