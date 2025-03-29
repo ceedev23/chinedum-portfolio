@@ -1,31 +1,32 @@
-const skills = [
-  { name: 'HTML', level: 'Advanced' },
-  { name: 'CSS', level: 'Advanced' },
-  { name: 'JavaScript', level: 'Advanced' },
-  { name: 'React', level: 'Advanced' },
-  { name: 'Next.js', level: 'Advanced' },
-  { name: 'Tailwind CSS', level: 'Advanced' },
-  { name: 'Git', level: 'Intermediate' },
-  { name: 'Responsive Design', level: 'Advanced' },
-];
+import { Code2 } from 'lucide-react';
 
 export default function Skills() {
+  const skills = [
+    { category: "Frontend", items: ["HTML", "CSS", "JavaScript", "React", "Next.js", "TypeScript", "Tailwind CSS"] },
+    { category: "Backend", items: ["Node.js", "Express", "Python", "SQL", "MongoDB"] },
+    { category: "Tools & Platforms", items: ["Git", "VS Code", "Framer", "Adobe Suite"] }
+  ];
+
   return (
-    <section id="skills" className="py-16 bg-gray-50">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Skills</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          {skills.map((skill) => (
-            <div 
-              key={skill.name}
-              className="p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
-            >
-              <h3 className="font-semibold text-gray-900">{skill.name}</h3>
-              <p className="text-sm text-gray-600">{skill.level}</p>
-            </div>
-          ))}
-        </div>
+    <div className="mb-12">
+      <div className="flex items-center gap-2 mb-6">
+        <Code2 className="text-[hsl(var(--blue))]" size={24} />
+        <h3 className="text-2xl font-semibold text-white">Technical Skills</h3>
       </div>
-    </section>
+      <div className="grid md:grid-cols-3 gap-6">
+        {skills.map((skillGroup) => (
+          <div key={skillGroup.category} className="p-4 rounded-lg border border-gray-700 bg-gray-800/50">
+            <h4 className="font-medium mb-2 text-white">{skillGroup.category}</h4>
+            <ul className="space-y-1">
+              {skillGroup.items.map((skill) => (
+                <li key={skill} className="text-gray-400">
+                  {skill}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 } 
