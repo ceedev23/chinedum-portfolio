@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    basePath: process.env.NODE_ENV === 'production' ? '/cee-portfolio' : '',
+    basePath: '/chinedum-portfolio',
     images: {
         unoptimized: true,
     },
     distDir: 'out',
     trailingSlash: true,
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/cee-portfolio/' : '',
+    assetPrefix: '/chinedum-portfolio/',
 }
 
 export default nextConfig;
