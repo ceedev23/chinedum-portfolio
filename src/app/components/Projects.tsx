@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'Personal Blog',
     description: 'A blog built with Next.js and MDX',
-    image: `${process.env.NODE_ENV === 'production' ? '/chinedum-portfolio' : ''}/Screenshot-MyBlog.png`,
+    image: `${process.env.NODE_ENV === 'production' ? '/chinedum-portfolio/' : '/'}Screenshot-MyBlog.png`,
     tech: ['Next.js', 'MDX', 'Tailwind CSS'],
     github: 'https://github.com/yourusername/blog',
     live: 'https://your-blog-url.com'
@@ -43,6 +43,8 @@ export default function Projects() {
                   alt={project.title}
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  priority={project.title === 'Personal Blog'}
                 />
               </div>
               <div className="p-6">
