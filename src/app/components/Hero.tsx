@@ -26,9 +26,10 @@ export default function Hero() {
             <h1 className={`text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-300 via-white/90 to-pink-300 mb-4 pt-4 ${pacifico.className}`}>
               Hello, I&apos;m
             </h1>
-            <h1 className="text-4xl md:text-5xl font-bold text-[hsl(var(--blue))] mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-[hsl(var(--blue))] mb-2">
               Chinedum Akpala
             </h1>
+            <div className="text-2xl md:text-3xl text-muted-foreground mb-4">(Just call me Cee)</div>
             <h2 className="text-xl md:text-2xl text-muted-foreground mb-6">
               Web Developer | Data Analyst
             </h2>
