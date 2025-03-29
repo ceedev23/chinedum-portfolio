@@ -50,15 +50,14 @@ export default function Hero() {
               Experienced in modern web technologies and data analysis tools.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <Link
-                href={`${process.env.NODE_ENV === 'production' ? '/chinedum-portfolio' : ''}/Chinedum_Resume_Developer.pdf`}
+              <a
+                href="/Chinedum_Resume_Developer.pdf"
                 className="button px-6 py-3 rounded-lg flex items-center justify-center gap-2"
-                target="_blank"
-                rel="noopener noreferrer"
+                download="Chinedum_Resume_Developer.pdf"
               >
                 <Download size={20} />
                 Download Resume
-              </Link>
+              </a>
               <Link
                 href="#projects"
                 className="button px-6 py-3 rounded-lg flex items-center justify-center gap-2"
