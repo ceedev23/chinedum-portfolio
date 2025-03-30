@@ -5,7 +5,7 @@ import ThemeToggle from './ThemeToggle';
 export default function Header() {
   return (
     <header className="fixed top-0 w-full bg-background/80 backdrop-blur-sm z-50 shadow-sm">
-      <div className="container mx-auto px-4 py-3 md:px-6 md:py-6">
+      <div className="container mx-auto px-3 py-2 md:px-4 md:py-4">
         <nav className="flex justify-between items-center">
           <Link href="/" className="text-lg md:text-xl font-bold text-foreground hover:text-foreground/80 leading-relaxed">
             Chinedum Akpala
