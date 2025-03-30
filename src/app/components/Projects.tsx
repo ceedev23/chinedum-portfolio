@@ -14,7 +14,7 @@ const projects = [
   {
     title: 'Weather App',
     description: 'Real-time weather app using React and OpenWeather API',
-    image: '/weather-preview.jpg',
+    image: `${process.env.NODE_ENV === 'production' ? '/chinedum-portfolio' : ''}/Screenshot-WeatherApp.png`,
     tech: ['React', 'OpenWeather API', 'CSS'],
     github: 'https://github.com/yourusername/weather-app',
     live: 'https://weather-qyaypn1xc-cees-projects-eabc4959.vercel.app/'
