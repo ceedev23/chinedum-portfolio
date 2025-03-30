@@ -14,7 +14,7 @@ export default function Header() {
             <Link href="https://github.com/akpal" className="text-muted-foreground hover:text-foreground transition-colors">
               <Github className="h-5 w-5 md:h-6 md:w-6" />
             </Link>
-            <Link href="https://linkedin.com/in/chinedum-akpala" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="https://www.linkedin.com/in/chinedum-akpala-6661a1347/" className="text-muted-foreground hover:text-foreground transition-colors">
               <Linkedin className="h-5 w-5 md:h-6 md:w-6" />
             </Link>
             <Link href="mailto:akpalac@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
