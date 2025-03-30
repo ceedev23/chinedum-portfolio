@@ -17,7 +17,7 @@ const projects = [
     image: '/weather-preview.jpg',
     tech: ['React', 'OpenWeather API', 'CSS'],
     github: 'https://github.com/yourusername/weather-app',
-    live: 'https://your-weather-app-url.com'
+    live: 'https://weather-qyaypn1xc-cees-projects-eabc4959.vercel.app/'
   },
   {
     title: 'Task Manager',
