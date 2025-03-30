@@ -13,7 +13,7 @@ export default function Hero() {
     <section className="pt-24 pb-16 md:pt-32 md:pb-24">
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16 md:pr-8">
-          <div className="w-64 h-80 relative rounded-[8rem] overflow-hidden border-4 border-gray-700 shadow-lg shrink-0">
+          <div className="w-64 h-80 relative rounded-[8rem] overflow-hidden border-4 border-gray-700 shadow-lg shrink-0 mt-8 md:mt-0">
             <Image
               src={`${process.env.NODE_ENV === 'production' ? '/chinedum-portfolio' : ''}/profile-pix.jpg`}
               alt="Chinedum Akpala"
