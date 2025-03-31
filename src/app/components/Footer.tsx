@@ -16,7 +16,7 @@ export default function Footer() {
               <Github size={24} />
             </Link>
             <Link 
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/chinedum-akpala-6661a1347/?trk=opento_sprofile_details"
               className="hover:text-[hsl(var(--blue))] transition-colors"
               target="_blank"
               rel="noopener noreferrer"

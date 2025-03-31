@@ -55,7 +55,7 @@ export default function Contact() {
                 <span>GitHub</span>
               </Link>
               <Link 
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/chinedum-akpala-6661a1347/?trk=opento_sprofile_details"
                 className="flex items-center gap-2 text-gray-400 hover:text-[hsl(var(--blue))] transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
