@@ -45,6 +45,10 @@ export default function About() {
               <p className="text-gray-400">Trios College, Ontario • 2022 - 2024</p>
             </div>
             <div className="p-4 rounded-lg border border-gray-700 bg-gray-800/50">
+              <h4 className="font-medium text-white">AI for Product Management</h4>
+              <p className="text-gray-400">Coursera • October 2024</p>
+            </div>
+            <div className="p-4 rounded-lg border border-gray-700 bg-gray-800/50">
               <h4 className="font-medium text-white">Google Data Analytics Professional Certificate</h4>
               <p className="text-gray-400">Google • Expected 2025</p>
             </div>
