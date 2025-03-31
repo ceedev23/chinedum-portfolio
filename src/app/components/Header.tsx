@@ -11,13 +11,23 @@ export default function Header() {
             Chinedum Akpala
           </Link>
           <div className="flex items-center gap-3 md:gap-6">
-            <Link href="https://github.com/ceedev23" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="https://github.com/ceedev23" 
+              className="text-muted-foreground hover:text-foreground transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Github className="h-5 w-5 md:h-6 md:w-6" />
             </Link>
-            <Link href="https://www.linkedin.com/in/chinedum-akpala-6661a1347/?trk=opento_sprofile_details" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="https://www.linkedin.com/in/chinedum-akpala-6661a1347/?trk=opento_sprofile_details" 
+              className="text-muted-foreground hover:text-foreground transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Linkedin className="h-5 w-5 md:h-6 md:w-6" />
             </Link>
-            <Link href="mailto:akpalac@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="mailto:akpalac@gmail.com" 
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
               <Mail className="h-5 w-5 md:h-6 md:w-6" />
             </Link>
             <div className="w-px h-5 md:h-6 bg-gray-600 mx-1 md:mx-2"></div>
