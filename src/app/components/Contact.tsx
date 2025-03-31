@@ -46,7 +46,7 @@ export default function Contact() {
             </p>
             <div className="flex flex-col gap-4">
               <Link 
-                href="https://github.com/cakpa"
+                href="https://github.com/ceedev23"
                 className="flex items-center gap-2 text-gray-400 hover:text-[hsl(var(--blue))] transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"

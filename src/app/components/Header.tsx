@@ -11,7 +11,7 @@ export default function Header() {
             Chinedum Akpala
           </Link>
           <div className="flex items-center gap-3 md:gap-6">
-            <Link href="https://github.com/akpal" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="https://github.com/ceedev23" className="text-muted-foreground hover:text-foreground transition-colors">
               <Github className="h-5 w-5 md:h-6 md:w-6" />
             </Link>
             <Link href="https://www.linkedin.com/in/chinedum-akpala-6661a1347/" className="text-muted-foreground hover:text-foreground transition-colors">

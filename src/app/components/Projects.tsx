@@ -16,7 +16,7 @@ const projects = [
     description: 'Real-time weather app using React and OpenWeather API',
     image: `${process.env.NODE_ENV === 'production' ? '/chinedum-portfolio' : ''}/weather-preview.png`,
     tech: ['React', 'OpenWeather API', 'CSS'],
-    github: 'https://github.com/yourusername/weather-app',
+    github: 'https://github.com/ceedev23/Weather-Man',
     live: 'https://weather-qyaypn1xc-cees-projects-eabc4959.vercel.app/'
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     description: 'A full-stack task management application',
     image: '/task-preview.jpg',
     tech: ['Next.js', 'MongoDB', 'Tailwind CSS'],
-    github: 'https://github.com/yourusername/task-manager',
+    github: 'https://github.com/ceedev23/FitnessApp',
     live: 'https://your-task-manager-url.com'
   }
 ];

@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           <div className="flex gap-6">
             <Link 
-              href="https://github.com/yourusername"
+              href="https://github.com/ceedev23"
               className="hover:text-[hsl(var(--blue))] transition-colors"
               target="_blank"
               rel="noopener noreferrer"
