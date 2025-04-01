@@ -61,11 +61,12 @@ export default function Hero() {
               Passionate about creating responsive, user-friendly web applications and deriving meaningful insights from data. 
               Experienced in modern web technologies and data analysis tools.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
+            <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
               <a
-                href="/Chinedum_Resume_Developer.pdf"
+                href={`${process.env.NODE_ENV === 'production' ? '/chinedum-portfolio' : ''}/Chinedum_Resume_Developer.pdf`}
                 className="button px-6 py-3 rounded-lg flex items-center justify-center gap-2"
-                download="Chinedum_Resume_Developer.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Download size={20} />
                 Download Resume
